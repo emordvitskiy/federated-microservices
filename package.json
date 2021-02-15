@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:posts": "node ./posts-mcs/server.js"
+    "start:posts": "node ./posts-mcs/server.js",
+    "start:comments": "node ./comments-mcs/server.js"
   },
   "keywords": [],
   "author": "Eduard Mordvytskyi",
