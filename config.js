@@ -1,4 +1,5 @@
 module.exports = {
+  GATEWAY_PORT: 4000,
   POSTS_MCS_PORT: 4001,
   COMMENTS_MCS_PORT: 4002,
 };

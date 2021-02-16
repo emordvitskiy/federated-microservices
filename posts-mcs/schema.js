@@ -5,6 +5,11 @@ const typeDefs = gql`
     title: String!
     text: String
     author: String!
+    comments: [Comment]
+  }
+
+  extend type Comment @key(fields: "id") {
+    id: ID! @external
   }
 
   type Query {
