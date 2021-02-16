@@ -8,7 +8,8 @@
     "server:posts": "node ./posts-mcs/server.js",
     "server:comments": "node ./comments-mcs/server.js",
     "server:gateway": "node ./gateway/server.js",
-    "start:server": "concurrently -k npm:server:*"
+    "start:server": "concurrently -k npm:server:*",
+    "start:ui": "serve build"
   },
   "keywords": [],
   "author": "Eduard Mordvytskyi",
@@ -21,6 +22,7 @@
     "graphql": "^15.5.0"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "^5.3.0",
+    "serve": "^11.3.2"
   }
 }
